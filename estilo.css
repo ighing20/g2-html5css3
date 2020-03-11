@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+html body{
+    
+    height: 100%;
+
+}
+
+body{
+    display: flexbox;
+    flex-direction: column;
+}
+
+.contenedor{
+
+    height: 100%;
+    border: green 1px solid;
+    border-radius: 10px;
+
+}
+
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration:none;
+    display: block;
+    padding: 14px 16px;
+}
+
+li{
+
+    text-align: center;
+
+}
+
+.main{
+flex: 1 0 auto;
+border: 1px solid #0000;
+
+}
+
+
+nav{
+
+    background-color: blue;
+
+}
+
+a {
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+  
+}
+
+footer{
+
+    border: 1px solid #0000;
+    text-align: center;
+
+}
+
+ul{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+li{
+    margin: 5px;
+}
+
+li:hover{
+     background-color: green;
+     color: white;
+}
+
+.formGroup{
+
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 5px;
+    
+}
+.formGroup label,input,select{
+    font-size: 19px;
+}
+
+
+form {
+    border:blue 1px solid;
+    width: 500px;
+
+}
+
+
+.button{
+    text-align: center;
+}
+
+#cat{
+
+    text-align: right;
+}
+
+#titulo:hover{
+   
+    animation-name: animacion1;
+    animation-duration: 5s;
+}
+@keyframes animacion1{
+    from{ background-color:white;}
+    to{background-color: green;
+    color:blue; }
+}
