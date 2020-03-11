@@ -44,7 +44,6 @@ border: 1px solid #0000;
 
 }
 
-
 nav{
 
     background-color: blue;
@@ -58,7 +57,6 @@ a {
 section{
     display: flex;
     justify-content: center;
-  
 }
 
 footer{
@@ -71,7 +69,6 @@ footer{
 ul{
 display: flex;
 justify-content: space-evenly;
-
 }
 
 li{
@@ -111,6 +108,10 @@ form {
     text-align: right;
 }
 
+
+#titulo {
+    text-align: center;
+}
 #titulo:hover{
    
     animation-name: animacion1;
@@ -120,4 +121,16 @@ form {
     from{ background-color:white;}
     to{background-color: green;
     color:blue; }
+}
+
+
+@media (max-width: 600px) {
+    form {
+        display: block;
+    }
+  .formGroup {
+    display: block;
+    text-align: center;
+    }
+
 }
